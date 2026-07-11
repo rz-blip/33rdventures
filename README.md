@@ -56,8 +56,10 @@ twin-blade italic "33" (auto-marque style) — `public/badge.svg` is the marque,
 `python3 scripts/gen_icons.py public` (no dependencies). The page has a print stylesheet — the
 **Print / PDF** button in the masthead flips to a clean light document.
 
-## TODO before going live
+## Deployment
 
-- Confirm LinkedIn / GitHub handles in `src/data/resume.ts` (`links`)
-- Confirm or remove the Calendly URL (`calendly`)
-- Point 33rdventures.com DNS at the deployed build
+Hosted on **GitHub Pages** from [rz-blip/33rdventures](https://github.com/rz-blip/33rdventures).
+Every push to `main` auto-builds (Node 22) and deploys via
+`.github/workflows/deploy.yml` — edit `src/data/resume.ts`, commit, push, live.
+Custom domain: 33rdventures.com (DNS at GoDaddy — apex A records → GitHub
+Pages IPs, `www` CNAME → `rz-blip.github.io`).
