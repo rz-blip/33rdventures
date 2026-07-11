@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 150" fill="none">
+  <!-- 33rd Ventures marque — elliptical badge, twin blade "33" -->
+  <ellipse cx="130" cy="75" rx="120" ry="62" stroke="currentColor" stroke-width="12" transform="rotate(-6 130 75)"/>
+  <g fill="currentColor" transform="translate(80 39) skewX(-12)">
+    <!-- first 3 : right spine + three bladed bars -->
+    <polygon points="39,0 50,0 50,72 39,72"/>
+    <polygon points="5,0 50,0 50,11 0,11"/>
+    <polygon points="13,30.5 50,30.5 50,41.5 9,41.5"/>
+    <polygon points="0,61 50,61 50,72 5,72"/>
+    <!-- second 3 -->
+    <g transform="translate(65 0)">
+      <polygon points="39,0 50,0 50,72 39,72"/>
+      <polygon points="5,0 50,0 50,11 0,11"/>
+      <polygon points="13,30.5 50,30.5 50,41.5 9,41.5"/>
+      <polygon points="0,61 50,61 50,72 5,72"/>
+    </g>
+  </g>
+</svg>
